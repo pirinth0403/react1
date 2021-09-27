@@ -16,7 +16,7 @@ export class Form extends Component {
             username:event.target.value 
         })
     }
-    handleCommentChange =(event) => { 
+    handleCommentChange =(event) => {  
         this.setState({
             Comment:event.target.value 
         })

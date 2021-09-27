@@ -9,6 +9,8 @@ import Inline from './components/Inline';
 import './appStyle.css';
 import style from './appStyle.module.css';
 import Form from './components/Form';
+import LifecycleB from './components/LifecycleB';
+import LifecycleA from './components/LifecycleA';
 
 
 
@@ -26,9 +28,9 @@ function App() {
     {/* <Person />  */} 
     {/* <Stylecheets primary={true} />  */} 
     {/* <Inline />  */}
-    <Form />
-    
-      
+    {/* <Form /> */}
+    {/* <LifecycleB /> */}
+    <LifecycleA />  
     </div>
   );
 }
